@@ -93,7 +93,7 @@ The password will also be needed when verifying a sharded key.
 
 A ed25519 key is generated via libsodium. The provided password is run
 through PBKDF2, with a configurable number of iterations and a random
-salt, and the resultant value is used as an AES key. When sharding is
+salt, and the resulting value is used as an AES key. When sharding is
 enabled, an additional AES key is randomly generated and the 2 keys
 are combined using a sha256 HMAC into the final AES key.
 
