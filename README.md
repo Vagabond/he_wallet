@@ -68,7 +68,7 @@ wallet retrieved from blockchain using the Helium Explorer API.
 
 ## Key Sharding
 
-Sharding wallet keys is supported via Shamir's Secret Sharing.  A key
+Sharding wallet keys is supported via [Shamir's Secret Sharing](https://github.com/dsprenkels/sss).  A key
 can be broken into N shards such that recovering the original key
 needs K distinct shards. This can be done by passing options to
 `create`:
